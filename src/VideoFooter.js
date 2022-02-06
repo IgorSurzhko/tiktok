@@ -8,10 +8,10 @@ import './VideoFooter.css';
 function VideoFooter({ channel, description, song }) {
 	return (
 		<div className="videoFooter">
-			<div class="videoFooter__text">
+			<div className="videoFooter__text">
 				<h3>@{channel}</h3>
 				<p>{description}</p>
-				<div class="videoFooter__ticker">
+				<div className="videoFooter__ticker">
 					<MusicNoteIcon className="videoFooter__icon" />
 					<Ticker mode="smooth">
 						{({ index }) => (
