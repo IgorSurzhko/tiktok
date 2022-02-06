@@ -20,7 +20,6 @@ function App() {
 		};
 		fetchData();
 	}, []);
-	console.log(videos);
 
 	return (
 		<div className="app">
