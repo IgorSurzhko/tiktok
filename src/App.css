@@ -12,13 +12,13 @@ html {
 
 .app__videos {
 	position: relative;
-	height: 800px;
+	height: 80%;
+	width: 80%;
+	border-radius: 30px;
 	overflow: scroll;
-
-	width: 450px;
-
+	max-width: 500px;
+	min-height: 800px;
 	scroll-snap-type: y mandatory;
-	border-radius: 20px;
 }
 
 /* //OMG!!!//Hide scrollbar for Chrome, Safari, and Opera. */

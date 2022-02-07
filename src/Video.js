@@ -24,7 +24,9 @@ function Video({ url, channel, description, song, likes, messages, shares }) {
 				loop
 				onClick={onVideoPress}
 				ref={videoRef}
-				src={url}></video>
+				preload="metadata"
+				playsinline
+				src={`${url}#t=0.001`}></video>
 			<VideoFooter channel={channel} description={description} song={song} />
 			<VideoSidebar likes={likes} shares={shares} messages={messages} />
 		</div>
